@@ -9,7 +9,7 @@ import {
   Alert
 } from "react-native";
 import { Circular, Larsseit } from "~/components/fonts";
-import { LightButton } from "~/components/buttons";
+import { DarkButton } from "~/components/buttons";
 import { SignupForm } from "~/components/forms";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -61,7 +61,7 @@ const Login = props => {
 
           <View>
             <SignupForm />
-            <LightButton title="LOGIN" />
+            <DarkButton title="LOGIN" />
           </View>
         </View>
       </View>
