@@ -60,7 +60,7 @@ const Signup = props => {
 
           <View>
             <SignupForm mode="signup" />
-            <DarkButton title="SIGN UP" />
+            <DarkButton title="CREATE ACCOUNT" />
           </View>
         </View>
       </View>
